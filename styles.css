@@ -1,25 +1,33 @@
 body {
 	background: black;
 }
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
 
 .postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
-}
+	background:background-color #ffffff;
+    background-image: linear-gradient(270deg, #ffffff 0%, #cae3fd 100%);
+    
+	width: 1000px;
+	height: 800px;
+	margin: auto;}
+    
+
 .postcard-header {
 	display: flex;
 }
 .postcard-header img {
-	width: 100px;
-	height: 70px;
+	width: 300px;
+	height: 200px;
     border-radius: 10px;
-    margin-right: 15px;
-    margin-top: 20px;
+    margin-left: 200px;
+    margin-top: 30px;
 }
 .postcard-header h1 {
-	width: 330px;
+	width: 450px;
+    font-size: 80px;
 }
 .titulo01 {background-image: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);background-clip: text;-webkit-background-clip: text;color: transparent; margin-top: 40px; margin-left: 10px;
     font-family: europebold;
@@ -29,24 +37,47 @@ body {
 .postcard-body {
 	display: flex;
 }
-.body-left p:first-child {
-	margin-top: 0%;
+.parrafo01{font-family: europelight; font-size: 50px; text-align: justify;margin-left: 20px;color: #3E98B5;font-family:  ;}
+.parrafo02{font-family: europelight; font-size: 50px; text-align: justify;margin-left: 20px;color: #3E98B5;}
+.link{font-family: europelight; color: #7f7fd5;}
+.body-left{
+	margin-bottom: 200; background-color: #12D8FA;
 }
-.body-left,
-.body-right {
-	padding: 5px;
+.body-left {
+	padding: 10px;
 }
-input {
-	border-bottom: grey;
+.body-right {margin-top: 150px; margin-left: 100px;margin-right: 55px;}
+.cuadroinput {
+	background: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
+	margin: 10px;
+	padding: 15px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 20px #eee;
+	border-radius: 10px;
+	display: block;
 	border: none;
-	border-bottom: 0cap;
-}
+	
+  }
+	
+
+  .cuadroinput:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+  }
+ 
+.name,.email,.comment{border-radius: 10px;}
+
 .postcard-footer {
 	text-align: center;
 }
 button {
-	background-color: #dfdfdf;
-	padding: 5px;
+	background-color:
+	padding: 5px; font-size: 30px;
 }
 .name,
 .email,
@@ -61,3 +92,11 @@ button {
     src: url(https://raw.githubusercontent.com/ekiafox/FUENTES_EKFX/main/EUROPA-GROTESC-EXTRA-BOLD.ttf
     );
 }
+@font-face {
+	font-family: "roboto";
+	src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet");
+}
+
+
+
+         
